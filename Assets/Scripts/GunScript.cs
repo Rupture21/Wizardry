@@ -26,7 +26,7 @@ public class GunScript : MonoBehaviour
         //Aim
         Vector2 mouseScreenPosition2D = Mouse.current.position.ReadValue();
 
-        Vector3 mouseScreenPosition = new Vector3(mouseScreenPosition2D.x, mouseScreenPosition2D.y, mainCam.nearClipPlane);
+        Vector3 mouseScreenPosition = new(mouseScreenPosition2D.x, mouseScreenPosition2D.y, mainCam.nearClipPlane);
         mousePos = mainCam.ScreenToWorldPoint(mouseScreenPosition);
 
         Vector3 direction = mousePos - transform.position;
