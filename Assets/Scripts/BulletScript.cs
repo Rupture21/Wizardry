@@ -1,4 +1,4 @@
-using Unity.AppUI.UI;
+// using Unity.AppUI.UI;
 using UnityEngine;
 
 public class BulletScript : MonoBehaviour
@@ -12,7 +12,7 @@ public class BulletScript : MonoBehaviour
 
     private float lifetime = 2.5f;
 
-    public bool isBouncingEnabled = true;
+    private bool isBouncingEnabled = true;
     private Vector3 incomingDir;
     private Vector2 incomingDir2D;
 
@@ -42,11 +42,14 @@ public class BulletScript : MonoBehaviour
             Destroy(gameObject);
             return;
         }
-        Vector2 normal = collision.contacts[0].normal;
-        Vector2 reflectDir = Vector2.Reflect(incomingDir2D, normal);
-        float angle = Mathf.Atan2(reflectDir.y, reflectDir.x) * Mathf.Rad2Deg;
-        transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle));
-        incomingDir2D = reflectDir;
-        rb.linearVelocity = reflectDir.normalized * bulletSpeed;
+        else
+        {
+            Vector2 normal = collision.contacts[0].normal;
+            Vector2 reflectDir = Vector2.Reflect(incomingDir2D, normal);
+            float angle = Mathf.Atan2(reflectDir.y, reflectDir.x) * Mathf.Rad2Deg;
+            transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle));
+            incomingDir2D = reflectDir;
+            rb.linearVelocity = reflectDir.normalized * bulletSpeed;
+        }
     }
 }

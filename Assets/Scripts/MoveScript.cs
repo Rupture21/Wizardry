@@ -6,14 +6,28 @@ public class MoveScript :  MonoBehaviour
     public Rigidbody2D rb;
 
     public float moveSpeed;
-
-    private Vector2 moveDirection;
+    
+    [HideInInspector]
+    public Vector2 moveDirection;
+    [HideInInspector]
+    public float lastHorizontalvector;
+    [HideInInspector]
+    public float lastverticalVector;
 
     public InputActionReference move;
 
     private void Update()
     {
         moveDirection = move.action.ReadValue<Vector2>();
+
+        if (moveDirection.x != 0)
+        {
+            lastHorizontalvector = moveDirection.x;
+        }
+        if (moveDirection.y != 0)
+        {
+            lastverticalVector = moveDirection.y;
+        }
     }
 
     private void FixedUpdate()
