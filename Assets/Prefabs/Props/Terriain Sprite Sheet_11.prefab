@@ -10,9 +10,12 @@ GameObject:
   m_Component:
   - component: {fileID: 6558521842007077533}
   - component: {fileID: 2323350396481675562}
+  - component: {fileID: 4665115437620167197}
+  - component: {fileID: 3408325187645446973}
+  - component: {fileID: 1995583269899767990}
   m_Layer: 0
   m_Name: Terriain Sprite Sheet_11
-  m_TagString: Untagged
+  m_TagString: Prop
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -91,3 +94,98 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!60 &4665115437620167197
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6481733385029098470}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 2}
+    newSize: {x: 1, y: 2}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.23388915, y: 0.11829575}
+      - {x: 0.30872703, y: 0.3669986}
+      - {x: 0.2922206, y: 0.73106813}
+      - {x: 0.1671261, y: 0.74269754}
+      - {x: 0.016079694, y: 0.9215774}
+      - {x: -0.058895495, y: 0.930291}
+      - {x: -0.16001168, y: 0.7376818}
+      - {x: -0.17007276, y: 0.5106565}
+      - {x: 0.0820768, y: 0.12784363}
+      - {x: 0.09682001, y: -0.05703166}
+      - {x: -0.10107438, y: -0.05360408}
+      - {x: -0.31539407, y: -0.14137593}
+      - {x: -0.45643172, y: -0.39001355}
+      - {x: -0.456432, y: -0.6672207}
+      - {x: -0.11870073, y: -0.902646}
+      - {x: 0.12650463, y: -0.89828867}
+      - {x: 0.46078843, y: -0.65414995}
+      - {x: 0.46078867, y: -0.36913857}
+      - {x: 0.28140706, y: -0.14828855}
+  m_UseDelaunayMesh: 1
+--- !u!114 &3408325187645446973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6481733385029098470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f37e14a7af64c6418087f144c06df78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BreakableProps
+  health: 20
+--- !u!114 &1995583269899767990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6481733385029098470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 192062917e4a6cc4394080c83b14369b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DropRateManager
+  drops:
+  - name: Red potion
+    itemPrefab: {fileID: 1180656463508317165, guid: d18f42a7fa72c454bab7ed7e0a60b9c7, type: 3}
+    dropRate: 20
