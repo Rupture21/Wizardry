@@ -176,7 +176,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9820153d1913af04baa1edf11d3de336, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
-  enemyData: {fileID: 11400000, guid: 7c0eeb4fc3024814682aa8a03766f0f2, type: 2}
 --- !u!114 &6579542732889915450
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -190,6 +189,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyStats
   enemyData: {fileID: 11400000, guid: 7c0eeb4fc3024814682aa8a03766f0f2, type: 2}
+  currentMoveSpeed: 0
+  currentHealth: 0
+  currentDamage: 0
+  despawnDistance: 20
 --- !u!114 &-6510185568294118876
 MonoBehaviour:
   m_ObjectHideFlags: 0
