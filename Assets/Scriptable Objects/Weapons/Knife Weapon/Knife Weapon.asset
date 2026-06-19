@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa711313d7022b3459cda46bd3bfac0d, type: 3}
+  m_Name: Knife Weapon
+  m_EditorClassIdentifier: Assembly-CSharp::WeaponScriptableObject
+  prefab: {fileID: 4777727485175537307, guid: 6cc6f1153b06cd2469ba651053e7bba5, type: 3}
+  damage: 5
+  speed: 10
+  cooldownDuration: 2
+  pierce: 1
+  level: 1
+  nextLevelPrefab: {fileID: 1663572552080368879, guid: dc38bcb88d57c8d448a925b47b4adb6a, type: 3}
+  icon: {fileID: -9136433591995021821, guid: d1a0844d6187dbd459b0e70d4f9123f6, type: 3}

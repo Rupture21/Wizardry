@@ -24,6 +24,11 @@ public class ProjectileWeaponBehaviour : MonoBehaviour
         currentPierce = weaponData.Pierce;
     }
 
+    public float GetCurrentDamage()
+    {
+        return currentDamage *= FindAnyObjectByType<PlayerStats>().currentMight;
+    }
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     protected virtual void Start()
     {
@@ -32,22 +37,6 @@ public class ProjectileWeaponBehaviour : MonoBehaviour
 
     public void DiretionChecker(Vector3 dir)
     {
-        // direction = dir;
-
-        // float dirx = direction.x;
-        // float diry = direction.y;
-
-        // Vector3 scale = transform.localScale;
-        // Vector3 rotation = transform.rotation.eulerAngles;
-
-        // if(dirx < 0 && diry == 0)
-        // {
-        //     scale.x = scale.x * -1;
-        //     scale.y = scale.y * -1;
-        // }
-
-        // transform.localScale = scale;
-        // transform.rotation = Quaternion.Euler(rotation);
         direction = dir;
 
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
@@ -60,14 +49,14 @@ public class ProjectileWeaponBehaviour : MonoBehaviour
         if (col.CompareTag("Enemy"))
         {
             EnemyStats enemy = col.GetComponent<EnemyStats>();
-            enemy.TakeDamage(currentDamage);
+            enemy.TakeDamage(GetCurrentDamage());
             ReducePierce();
         }
         else if (col.CompareTag("Prop"))
         {
             if (col.gameObject.TryGetComponent(out BreakableProps breakable))
             {
-                breakable.TakeDamage(currentDamage);
+                breakable.TakeDamage(GetCurrentDamage());
                 ReducePierce();
             }
         }

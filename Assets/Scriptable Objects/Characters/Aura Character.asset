@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 97230f885c774324ab3443c51bb5825d, type: 3}
-  m_Name: Knife Character
+  m_Name: Aura Character
   m_EditorClassIdentifier: Assembly-CSharp::CharacterScriptableObject
-  startingWeapon: {fileID: 1663572552080368879, guid: 6018e6cdca1a60c42b9dde519339571b, type: 3}
+  startingWeapon: {fileID: 1977685701088426129, guid: c88a0255236a28f4a993c06e8e57a166, type: 3}
   maxHealth: 1000
   recovery: 1
   moveSpeed: 5
-  might: 0
+  might: 1
   projectileSpeed: 0
   magnet: 1
