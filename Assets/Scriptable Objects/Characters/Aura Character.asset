@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97230f885c774324ab3443c51bb5825d, type: 3}
   m_Name: Aura Character
   m_EditorClassIdentifier: Assembly-CSharp::CharacterScriptableObject
+  icon: {fileID: -2476969210028978253, guid: a5a515b9781f27b4c9d07223db2fbf94, type: 3}
+  name: Aura Starter
   startingWeapon: {fileID: 1977685701088426129, guid: c88a0255236a28f4a993c06e8e57a166, type: 3}
   maxHealth: 1000
   recovery: 1

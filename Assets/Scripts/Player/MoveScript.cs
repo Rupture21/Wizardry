@@ -26,6 +26,21 @@ public class MoveScript :  MonoBehaviour
 
     private void Update()
     {
+        InputMannagement();
+    }
+
+    private void FixedUpdate()
+    {
+        Move();
+    }
+
+    void InputMannagement()
+    {
+        if (GameManager.instance.isGameOver)
+        {
+            return;
+        }
+
         moveDirection = move.action.ReadValue<Vector2>();
 
         if (moveDirection.x != 0)
@@ -45,9 +60,13 @@ public class MoveScript :  MonoBehaviour
         }
     }
 
-    private void FixedUpdate()
+    void Move()
     {
-        rb.linearVelocity = new Vector2(moveDirection.x * player.currentMoveSpeed, moveDirection.y * player.currentMoveSpeed);
-    }
+        if (GameManager.instance.isGameOver)
+        {
+            return;
+        }
 
+        rb.linearVelocity = new Vector2(moveDirection.x * player.CurrentMoveSpeed, moveDirection.y * player.CurrentMoveSpeed);
+    }
 }
