@@ -15,4 +15,6 @@ MonoBehaviour:
   multiplier: 75
   level: 2
   nextLevelPrefab: {fileID: 0}
+  name: Winged Boots Level 2
+  description: Movement Speed +25%
   icon: {fileID: 6737994273491034136, guid: d64d0f00433b70d48ad460265efe3bda, type: 3}

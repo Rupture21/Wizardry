@@ -12,11 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa711313d7022b3459cda46bd3bfac0d, type: 3}
   m_Name: Aura Weapon Level 2
   m_EditorClassIdentifier: Assembly-CSharp::WeaponScriptableObject
-  prefab: {fileID: 8255125573343534624, guid: a62b09d530a0d614788e7ce00975a965, type: 3}
+  prefab: {fileID: 8255125573343534624, guid: b0ef8b27aebb4f049ad57774968b5e66, type: 3}
   damage: 5
   speed: 0
   cooldownDuration: 2.5
   pierce: 0
   level: 2
-  nextLevelPrefab: {fileID: 0}
+  nextLevelPrefab: {fileID: 1977685701088426129, guid: 8f56c4bada24c8d41890b42a0db88dbf, type: 3}
+  name: Magical Aura Level 2
+  description: Cooldown -0.5
   icon: {fileID: 5826479529469629657, guid: 509af833fca6e904a90e65f3540620de, type: 3}

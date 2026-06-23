@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa711313d7022b3459cda46bd3bfac0d, type: 3}
+  m_Name: Aura Weapon Level 3
+  m_EditorClassIdentifier: Assembly-CSharp::WeaponScriptableObject
+  prefab: {fileID: 8255125573343534624, guid: a47a6a0bac7571547a411e67ea971dc5, type: 3}
+  damage: 7
+  speed: 0
+  cooldownDuration: 2.5
+  pierce: 0
+  level: 2
+  nextLevelPrefab: {fileID: 0}
+  name: Magical Aura Level 3
+  description: Damage +2
+  icon: {fileID: 5826479529469629657, guid: 509af833fca6e904a90e65f3540620de, type: 3}

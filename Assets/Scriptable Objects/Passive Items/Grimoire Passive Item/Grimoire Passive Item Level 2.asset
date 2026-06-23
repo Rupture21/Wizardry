@@ -15,4 +15,6 @@ MonoBehaviour:
   multiplier: 150
   level: 2
   nextLevelPrefab: {fileID: 0}
+  name: Grimoire Level 2
+  description: Might +50%
   icon: {fileID: -6324233332126841778, guid: cb4cd695d933ba54588c617e3de1282a, type: 3}

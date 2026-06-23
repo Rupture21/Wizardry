@@ -19,4 +19,6 @@ MonoBehaviour:
   pierce: 1
   level: 1
   nextLevelPrefab: {fileID: 1663572552080368879, guid: dc38bcb88d57c8d448a925b47b4adb6a, type: 3}
+  name: Fiery Knife
+  description: Shoot knives imbued with fire
   icon: {fileID: -9136433591995021821, guid: d1a0844d6187dbd459b0e70d4f9123f6, type: 3}

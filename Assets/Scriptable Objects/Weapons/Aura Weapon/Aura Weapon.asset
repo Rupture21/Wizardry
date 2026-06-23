@@ -19,4 +19,6 @@ MonoBehaviour:
   pierce: 0
   level: 1
   nextLevelPrefab: {fileID: 1977685701088426129, guid: dd0d7563a8a7ac844adf64c904fb86e1, type: 3}
+  name: Magical Aura
+  description: Deal damage to nearby enemies
   icon: {fileID: 5826479529469629657, guid: 509af833fca6e904a90e65f3540620de, type: 3}
