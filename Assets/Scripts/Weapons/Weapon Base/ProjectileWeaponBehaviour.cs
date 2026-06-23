@@ -1,8 +1,6 @@
 using System.Collections.Generic;
 using System.Collections;
 using UnityEngine;
-using Unity.AppUI.Core;
-using Unity.VisualScripting;
 
 public class ProjectileWeaponBehaviour : MonoBehaviour
 {

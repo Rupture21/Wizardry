@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 5212801605695455063}
   - component: {fileID: 6364312148265511254}
   - component: {fileID: -3881732074564356745}
+  - component: {fileID: 3023703986014472042}
   m_Layer: 0
   m_Name: Blue gem
   m_TagString: Untagged
@@ -143,7 +144,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 665f256877854a543a4a98c035344b61, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ExperienceGem
-  experienceGranted: 100
+  experienceGranted: 30
 --- !u!50 &-3881732074564356745
 Rigidbody2D:
   serializedVersion: 5
@@ -171,3 +172,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &3023703986014472042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5183217401018011582}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61aa056bc30955c45892aeef2eab73dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BobbingAnimation
+  frequency: 3
+  magnitude: 0.1
+  direction: {x: 0, y: 1, z: 0}

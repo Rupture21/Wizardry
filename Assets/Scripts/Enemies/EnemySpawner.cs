@@ -34,6 +34,7 @@ public class EnemySpawner : MonoBehaviour
     public int maxEnemieAllowed;
     public bool maxEnemiesReached = false;
     public float waveInterval;
+    bool isWaveActive = false;
 
     [Header("Spawn Positions")]
     public List<Transform> relativeSpawnPoints;
@@ -50,7 +51,7 @@ public class EnemySpawner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (currentWaveCount < waves.Count && waves[currentWaveCount].spawnCount == 0)
+        if (currentWaveCount < waves.Count && waves[currentWaveCount].spawnCount == 0 && !isWaveActive)
         {
             StartCoroutine(BeginNextWave());
         }
@@ -66,10 +67,13 @@ public class EnemySpawner : MonoBehaviour
 
     IEnumerator BeginNextWave()
     {
+        isWaveActive = true;
+
         yield return new WaitForSeconds(waveInterval);
 
         if (currentWaveCount < waves.Count -1)
         {
+            isWaveActive = false;
             currentWaveCount++;
             CalculateWaveQuota();
         }
@@ -94,29 +98,29 @@ public class EnemySpawner : MonoBehaviour
             {
                 if (enemyGroup.spawnCount < enemyGroup.enemyCount)
                 {
-                    if(enemiesAlive >= maxEnemieAllowed)
-                    {
-                        maxEnemiesReached = true;
-                        return;
-                    }
-
                     Instantiate(enemyGroup.enemyPrefabs, player.position + relativeSpawnPoints[UnityEngine.Random.Range(0, relativeSpawnPoints.Count)].position, Quaternion.identity);
 
                     enemyGroup.spawnCount++;
                     waves[currentWaveCount].spawnCount++;
                     enemiesAlive++;
+
+                    if(enemiesAlive >= maxEnemieAllowed)
+                    {
+                        maxEnemiesReached = true;
+                        return;
+                    }
                 }
             }
-        }
-
-        if (enemiesAlive < maxEnemieAllowed)
-        {
-            maxEnemiesReached = false;
         }
     }
 
     public void OnEnemyKilled()
     {
         enemiesAlive--;
+
+        if (enemiesAlive < maxEnemieAllowed)
+        {
+            maxEnemiesReached = false;
+        }
     }
 }

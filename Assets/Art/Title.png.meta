@@ -1,0 +1,2071 @@
+fileFormatVersion: 2
+guid: 8213080968c0da74cab846a4d611ef56
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3649351810540261553
+    second: Wizardry_0
+  - first:
+      213: 7258227986832507386
+    second: Wizardry_1
+  - first:
+      213: -3882010555414345455
+    second: Wizardry_2
+  - first:
+      213: -4586260175579831061
+    second: Wizardry_3
+  - first:
+      213: -3161903930343543921
+    second: Wizardry_4
+  - first:
+      213: 1538187560573944266
+    second: Wizardry_5
+  - first:
+      213: 2201790052897601403
+    second: Wizardry_6
+  - first:
+      213: 1481068745427722943
+    second: Wizardry_7
+  - first:
+      213: 6901611672040474709
+    second: Wizardry_8
+  - first:
+      213: -5166925905971325101
+    second: Wizardry_9
+  - first:
+      213: -1458113475484738081
+    second: Wizardry_10
+  - first:
+      213: 4374145900838890291
+    second: Wizardry_11
+  - first:
+      213: 8680883759680053288
+    second: Wizardry_12
+  - first:
+      213: 3134746390528205795
+    second: Wizardry_13
+  - first:
+      213: 3059461027717771344
+    second: Wizardry_14
+  - first:
+      213: -2386943189280420400
+    second: Wizardry_15
+  - first:
+      213: -7024602139729037408
+    second: Wizardry_16
+  - first:
+      213: -9068208433894530640
+    second: Wizardry_17
+  - first:
+      213: -4520408402044380018
+    second: Wizardry_18
+  - first:
+      213: 6039018340159788964
+    second: Wizardry_19
+  - first:
+      213: 4455664283914353073
+    second: Wizardry_20
+  - first:
+      213: 7618107282852951946
+    second: Wizardry_21
+  - first:
+      213: 549665974790418203
+    second: Wizardry_22
+  - first:
+      213: -8202069534655345673
+    second: Wizardry_23
+  - first:
+      213: 3789382363469312054
+    second: Wizardry_24
+  - first:
+      213: 7119667740461647798
+    second: Wizardry_25
+  - first:
+      213: 6352218768972012447
+    second: Wizardry_26
+  - first:
+      213: -7824021467211447533
+    second: Wizardry_27
+  - first:
+      213: -5112176358685520804
+    second: Wizardry_28
+  - first:
+      213: 8845840884663963394
+    second: Wizardry_29
+  - first:
+      213: 7452532092186345197
+    second: Wizardry_30
+  - first:
+      213: 7842156691306533687
+    second: Wizardry_31
+  - first:
+      213: -6362353180758993506
+    second: Wizardry_32
+  - first:
+      213: 3515638869803162387
+    second: Wizardry_33
+  - first:
+      213: 2722725925452158008
+    second: Wizardry_34
+  - first:
+      213: 2634521401611812691
+    second: Wizardry_35
+  - first:
+      213: -5609673729218759851
+    second: Wizardry_36
+  - first:
+      213: 6703666254171002313
+    second: Wizardry_37
+  - first:
+      213: 673391407662951115
+    second: Wizardry_38
+  - first:
+      213: -4018962434693610767
+    second: Wizardry_39
+  - first:
+      213: -3635860333874613365
+    second: Wizardry_40
+  - first:
+      213: -3892524843091667080
+    second: Wizardry_41
+  - first:
+      213: -5869653186874010018
+    second: Wizardry_42
+  - first:
+      213: 817741060738698614
+    second: Wizardry_43
+  - first:
+      213: 1184432444401533175
+    second: Wizardry_44
+  - first:
+      213: 8399828586479320812
+    second: Wizardry_45
+  - first:
+      213: -4134177415876934024
+    second: Wizardry_46
+  - first:
+      213: 977662435478844461
+    second: Wizardry_47
+  - first:
+      213: -7643957839406670923
+    second: Wizardry_48
+  - first:
+      213: 1664583845434066883
+    second: Wizardry_49
+  - first:
+      213: 8950790643706326962
+    second: Wizardry_50
+  - first:
+      213: 6947364573804280088
+    second: Wizardry_51
+  - first:
+      213: -958069133206767135
+    second: Wizardry_52
+  - first:
+      213: -3426662567931964323
+    second: Wizardry_53
+  - first:
+      213: -4664593363047678051
+    second: Wizardry_54
+  - first:
+      213: -2849950639630965528
+    second: Wizardry_55
+  - first:
+      213: 8195213741714898142
+    second: Wizardry_56
+  - first:
+      213: -6819075701556912202
+    second: Wizardry_57
+  - first:
+      213: -2851492102470926813
+    second: Wizardry_58
+  - first:
+      213: -1222308022471469114
+    second: Wizardry_59
+  - first:
+      213: -18543428301442412
+    second: Wizardry_60
+  - first:
+      213: -8075149976740309666
+    second: Wizardry_61
+  - first:
+      213: -9206553399230308927
+    second: Wizardry_62
+  - first:
+      213: -8525548575198050628
+    second: Wizardry_63
+  - first:
+      213: 3707363114444386739
+    second: Wizardry_64
+  - first:
+      213: 8516695671057229094
+    second: Wizardry_65
+  - first:
+      213: -88784629957941958
+    second: Wizardry_66
+  - first:
+      213: -5642991690177024319
+    second: Wizardry_67
+  - first:
+      213: -1205155675650489482
+    second: Wizardry_68
+  - first:
+      213: 6061939795013798518
+    second: Wizardry_69
+  - first:
+      213: 7935831564570572301
+    second: Wizardry_70
+  - first:
+      213: 2694959882708929571
+    second: Wizardry_71
+  - first:
+      213: -803348125126678773
+    second: Wizardry_72
+  - first:
+      213: 5469649658033788283
+    second: Wizardry_73
+  - first:
+      213: -8715271512491941276
+    second: Wizardry_74
+  - first:
+      213: 4046507318715266124
+    second: Wizardry_75
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Wizardry_0
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 2717
+        width: 710
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b05ea7f22a15a230800000000000000
+      internalID: 3649351810540261553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizardry_1
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 2716
+        width: 720
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af143f5f5e76ab460800000000000000
+      internalID: 7258227986832507386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizardry_2
+      rect:
+        serializedVersion: 2
+        x: 1634
+        y: 2716
+        width: 726
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1190636b7f3502ac0800000000000000
+      internalID: -3882010555414345455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizardry_3
+      rect:
+        serializedVersion: 2
+        x: 2429
+        y: 2714
+        width: 736
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be42b0b5ba45a50c0800000000000000
+      internalID: -4586260175579831061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizardry_4
+      rect:
+        serializedVersion: 2
+        x: 3225
+        y: 2714
+        width: 744
+        height: 189
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8b26f9b029ae14d0800000000000000
+      internalID: -3161903930343543921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizardry_5
+      rect:
+        serializedVersion: 2
+        x: 4021
+        y: 2712
+        width: 752
+        height: 193
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac14fe9cf6db85510800000000000000
+      internalID: 1538187560573944266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizardry_6
+      rect:
+        serializedVersion: 2
+        x: 4825
+        y: 2714
+        width: 744
+        height: 189
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7733f433645e8e10800000000000000
+      internalID: 2201790052897601403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizardry_7
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 2447
+        width: 736
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb2272b4d20dd8410800000000000000
+      internalID: 1481068745427722943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizardry_8
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 2449
+        width: 726
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55889a9df3377cf50800000000000000
+      internalID: 6901611672040474709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizardry_9
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 2450
+        width: 718
+        height: 183
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 357d0d993446b48b0800000000000000
+      internalID: -5166925905971325101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizardry_10
+      rect:
+        serializedVersion: 2
+        x: 2443
+        y: 2450
+        width: 708
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdd958bf48db3cbe0800000000000000
+      internalID: -1458113475484738081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizardry_11
+      rect:
+        serializedVersion: 2
+        x: 3247
+        y: 2452
+        width: 700
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33bab37858614bc30800000000000000
+      internalID: 4374145900838890291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizardry_12
+      rect:
+        serializedVersion: 2
+        x: 4052
+        y: 2452
+        width: 691
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 820ef2049c1b87870800000000000000
+      internalID: 8680883759680053288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizardry_13
+      rect:
+        serializedVersion: 2
+        x: 4856
+        y: 2454
+        width: 682
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e32f5ccb3bd08b20800000000000000
+      internalID: 3134746390528205795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizardry_14
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 2188
+        width: 675
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 050f4415893657a20800000000000000
+      internalID: 3059461027717771344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizardry_15
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 2189
+        width: 666
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dd07efd0dfdfded0800000000000000
+      internalID: -2386943189280420400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizardry_16
+      rect:
+        serializedVersion: 2
+        x: 1669
+        y: 2190
+        width: 657
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a770056299938e90800000000000000
+      internalID: -7024602139729037408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizardry_17
+      rect:
+        serializedVersion: 2
+        x: 2473
+        y: 2191
+        width: 649
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b1e38c8970472280800000000000000
+      internalID: -9068208433894530640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizardry_18
+      rect:
+        serializedVersion: 2
+        x: 3271
+        y: 2190
+        width: 652
+        height: 167
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8c147c22884441c0800000000000000
+      internalID: -4520408402044380018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizardry_19
+      rect:
+        serializedVersion: 2
+        x: 4067
+        y: 2189
+        width: 661
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a71b4d2f27eec350800000000000000
+      internalID: 6039018340159788964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizardry_20
+      rect:
+        serializedVersion: 2
+        x: 4862
+        y: 2189
+        width: 670
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b93c112f03b5dd30800000000000000
+      internalID: 4455664283914353073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizardry_21
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 1920
+        width: 679
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8734471634f8b960800000000000000
+      internalID: 7618107282852951946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizardry_22
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 1919
+        width: 688
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1f6084ba4ec0a700800000000000000
+      internalID: 549665974790418203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizardry_23
+      rect:
+        serializedVersion: 2
+        x: 1649
+        y: 1918
+        width: 696
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fb80d3f6356c2e80800000000000000
+      internalID: -8202069534655345673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizardry_24
+      rect:
+        serializedVersion: 2
+        x: 2445
+        y: 1917
+        width: 704
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 630f7bcbe27969430800000000000000
+      internalID: 3789382363469312054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizardry_25
+      rect:
+        serializedVersion: 2
+        x: 3239
+        y: 1916
+        width: 716
+        height: 183
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b7460d96142ec260800000000000000
+      internalID: 7119667740461647798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizardry_26
+      rect:
+        serializedVersion: 2
+        x: 4030
+        y: 1914
+        width: 734
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9b552c905d972850800000000000000
+      internalID: 6352218768972012447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizardry_27
+      rect:
+        serializedVersion: 2
+        x: 4822
+        y: 1911
+        width: 750
+        height: 193
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 313c4d3dded7b6390800000000000000
+      internalID: -7824021467211447533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizardry_28
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1644
+        width: 753
+        height: 193
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5c466fefa6ed09b0800000000000000
+      internalID: -5112176358685520804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizardry_29
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 1644
+        width: 753
+        height: 193
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20fc506da6db2ca70800000000000000
+      internalID: 8845840884663963394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizardry_30
+      rect:
+        serializedVersion: 2
+        x: 1622
+        y: 1645
+        width: 750
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dee37ffd376bc6760800000000000000
+      internalID: 7452532092186345197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizardry_31
+      rect:
+        serializedVersion: 2
+        x: 2427
+        y: 1646
+        width: 740
+        height: 189
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 733574216ffe4dc60800000000000000
+      internalID: 7842156691306533687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizardry_32
+      rect:
+        serializedVersion: 2
+        x: 3231
+        y: 1647
+        width: 732
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e959845cd7164b7a0800000000000000
+      internalID: -6362353180758993506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizardry_33
+      rect:
+        serializedVersion: 2
+        x: 4036
+        y: 1648
+        width: 722
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31b5c29ecee0ac030800000000000000
+      internalID: 3515638869803162387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizardry_34
+      rect:
+        serializedVersion: 2
+        x: 4840
+        y: 1649
+        width: 714
+        height: 183
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8349257bdc019c520800000000000000
+      internalID: 2722725925452158008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizardry_35
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 1383
+        width: 705
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35f7c38a143bf8420800000000000000
+      internalID: 2634521401611812691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizardry_36
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 1384
+        width: 698
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5533310f67f6622b0800000000000000
+      internalID: -5609673729218759851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizardry_37
+      rect:
+        serializedVersion: 2
+        x: 1653
+        y: 1385
+        width: 689
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c5d2acc0f4380d50800000000000000
+      internalID: 6703666254171002313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizardry_38
+      rect:
+        serializedVersion: 2
+        x: 2457
+        y: 1386
+        width: 680
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcaec80eaed585900800000000000000
+      internalID: 673391407662951115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizardry_39
+      rect:
+        serializedVersion: 2
+        x: 3262
+        y: 1387
+        width: 671
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f2c27285f6c938c0800000000000000
+      internalID: -4018962434693610767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizardry_40
+      rect:
+        serializedVersion: 2
+        x: 4066
+        y: 1388
+        width: 663
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b83787a3a44da8dc0800000000000000
+      internalID: -3635860333874613365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizardry_41
+      rect:
+        serializedVersion: 2
+        x: 4870
+        y: 1389
+        width: 654
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87753285749faf9c0800000000000000
+      internalID: -3892524843091667080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizardry_42
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 1123
+        width: 647
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5692a9768dca8ea0800000000000000
+      internalID: -5869653186874010018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizardry_43
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 1122
+        width: 655
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67dc4938923395b00800000000000000
+      internalID: 817741060738698614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizardry_44
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 1121
+        width: 664
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f040056803ff6010800000000000000
+      internalID: 1184432444401533175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizardry_45
+      rect:
+        serializedVersion: 2
+        x: 2461
+        y: 1120
+        width: 673
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cee754f589f229470800000000000000
+      internalID: 8399828586479320812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizardry_46
+      rect:
+        serializedVersion: 2
+        x: 3256
+        y: 1119
+        width: 682
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87686384b8370a6c0800000000000000
+      internalID: -4134177415876934024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizardry_47
+      rect:
+        serializedVersion: 2
+        x: 4053
+        y: 1118
+        width: 689
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d24b5f02eca519d00800000000000000
+      internalID: 977662435478844461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizardry_48
+      rect:
+        serializedVersion: 2
+        x: 4848
+        y: 1117
+        width: 698
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bb5a1038d43be590800000000000000
+      internalID: -7643957839406670923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizardry_49
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 849
+        width: 707
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c783f5203ac91710800000000000000
+      internalID: 1664583845434066883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizardry_50
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 848
+        width: 716
+        height: 183
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bf6109caa8973c70800000000000000
+      internalID: 8950790643706326962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizardry_51
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 847
+        width: 724
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 819bcba654ff96060800000000000000
+      internalID: 6947364573804280088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizardry_52
+      rect:
+        serializedVersion: 2
+        x: 2430
+        y: 846
+        width: 734
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e9b1fc033144b2f0800000000000000
+      internalID: -958069133206767135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizardry_53
+      rect:
+        serializedVersion: 2
+        x: 3226
+        y: 845
+        width: 742
+        height: 189
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d549949bc8c0270d0800000000000000
+      internalID: -3426662567931964323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizardry_54
+      rect:
+        serializedVersion: 2
+        x: 4022
+        y: 843
+        width: 750
+        height: 193
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9ff5e5ec09044fb0800000000000000
+      internalID: -4664593363047678051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizardry_55
+      rect:
+        serializedVersion: 2
+        x: 4824
+        y: 844
+        width: 746
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e426613ef0f278d0800000000000000
+      internalID: -2849950639630965528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizardry_56
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 578
+        width: 737
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edcf05d5a7f3bb170800000000000000
+      internalID: 8195213741714898142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizardry_57
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 579
+        width: 728
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bfd33847c6cd51a0800000000000000
+      internalID: -6819075701556912202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizardry_58
+      rect:
+        serializedVersion: 2
+        x: 1637
+        y: 580
+        width: 721
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32e73686a077d68d0800000000000000
+      internalID: -2851492102470926813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizardry_59
+      rect:
+        serializedVersion: 2
+        x: 2441
+        y: 581
+        width: 712
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c75a72645d790fe0800000000000000
+      internalID: -1222308022471469114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizardry_60
+      rect:
+        serializedVersion: 2
+        x: 3245
+        y: 582
+        width: 704
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 492bc27a9de1ebff0800000000000000
+      internalID: -18543428301442412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizardry_61
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 583
+        width: 694
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e55d36051ed4fef80800000000000000
+      internalID: -8075149976740309666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizardry_62
+      rect:
+        serializedVersion: 2
+        x: 4854
+        y: 585
+        width: 686
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cd56393670cb3080800000000000000
+      internalID: -9206553399230308927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizardry_63
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 318
+        width: 677
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb68bfbbdba2fa980800000000000000
+      internalID: -8525548575198050628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizardry_64
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 320
+        width: 668
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b1f7d13c13337330800000000000000
+      internalID: 3707363114444386739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizardry_65
+      rect:
+        serializedVersion: 2
+        x: 1667
+        y: 320
+        width: 661
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6252975e691613670800000000000000
+      internalID: 8516695671057229094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizardry_66
+      rect:
+        serializedVersion: 2
+        x: 2471
+        y: 321
+        width: 652
+        height: 167
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a35a7d579d294cef0800000000000000
+      internalID: -88784629957941958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizardry_67
+      rect:
+        serializedVersion: 2
+        x: 3272
+        y: 321
+        width: 650
+        height: 167
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ce6484a4f010b1b0800000000000000
+      internalID: -5642991690177024319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizardry_68
+      rect:
+        serializedVersion: 2
+        x: 4068
+        y: 321
+        width: 659
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6738ec55c4d664fe0800000000000000
+      internalID: -1205155675650489482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizardry_69
+      rect:
+        serializedVersion: 2
+        x: 4864
+        y: 320
+        width: 666
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67a0a934026502450800000000000000
+      internalID: 6061939795013798518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizardry_70
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 51
+        width: 675
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d06bf8b13ccb12e60800000000000000
+      internalID: 7935831564570572301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizardry_71
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 51
+        width: 684
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32c4bcc1cbb666520800000000000000
+      internalID: 2694959882708929571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizardry_72
+      rect:
+        serializedVersion: 2
+        x: 1651
+        y: 49
+        width: 693
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0729d2f22fe9d4f0800000000000000
+      internalID: -803348125126678773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizardry_73
+      rect:
+        serializedVersion: 2
+        x: 2446
+        y: 49
+        width: 702
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b75d0f0726918eb40800000000000000
+      internalID: 5469649658033788283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizardry_74
+      rect:
+        serializedVersion: 2
+        x: 3242
+        y: 47
+        width: 710
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46226d02cb22d0780800000000000000
+      internalID: -8715271512491941276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 95373b1b9dd1c884a8862928267ff7a9
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Wizardry_0: 3649351810540261553
+      Wizardry_1: 7258227986832507386
+      Wizardry_10: -1458113475484738081
+      Wizardry_11: 4374145900838890291
+      Wizardry_12: 8680883759680053288
+      Wizardry_13: 3134746390528205795
+      Wizardry_14: 3059461027717771344
+      Wizardry_15: -2386943189280420400
+      Wizardry_16: -7024602139729037408
+      Wizardry_17: -9068208433894530640
+      Wizardry_18: -4520408402044380018
+      Wizardry_19: 6039018340159788964
+      Wizardry_2: -3882010555414345455
+      Wizardry_20: 4455664283914353073
+      Wizardry_21: 7618107282852951946
+      Wizardry_22: 549665974790418203
+      Wizardry_23: -8202069534655345673
+      Wizardry_24: 3789382363469312054
+      Wizardry_25: 7119667740461647798
+      Wizardry_26: 6352218768972012447
+      Wizardry_27: -7824021467211447533
+      Wizardry_28: -5112176358685520804
+      Wizardry_29: 8845840884663963394
+      Wizardry_3: -4586260175579831061
+      Wizardry_30: 7452532092186345197
+      Wizardry_31: 7842156691306533687
+      Wizardry_32: -6362353180758993506
+      Wizardry_33: 3515638869803162387
+      Wizardry_34: 2722725925452158008
+      Wizardry_35: 2634521401611812691
+      Wizardry_36: -5609673729218759851
+      Wizardry_37: 6703666254171002313
+      Wizardry_38: 673391407662951115
+      Wizardry_39: -4018962434693610767
+      Wizardry_4: -3161903930343543921
+      Wizardry_40: -3635860333874613365
+      Wizardry_41: -3892524843091667080
+      Wizardry_42: -5869653186874010018
+      Wizardry_43: 817741060738698614
+      Wizardry_44: 1184432444401533175
+      Wizardry_45: 8399828586479320812
+      Wizardry_46: -4134177415876934024
+      Wizardry_47: 977662435478844461
+      Wizardry_48: -7643957839406670923
+      Wizardry_49: 1664583845434066883
+      Wizardry_5: 1538187560573944266
+      Wizardry_50: 8950790643706326962
+      Wizardry_51: 6947364573804280088
+      Wizardry_52: -958069133206767135
+      Wizardry_53: -3426662567931964323
+      Wizardry_54: -4664593363047678051
+      Wizardry_55: -2849950639630965528
+      Wizardry_56: 8195213741714898142
+      Wizardry_57: -6819075701556912202
+      Wizardry_58: -2851492102470926813
+      Wizardry_59: -1222308022471469114
+      Wizardry_6: 2201790052897601403
+      Wizardry_60: -18543428301442412
+      Wizardry_61: -8075149976740309666
+      Wizardry_62: -9206553399230308927
+      Wizardry_63: -8525548575198050628
+      Wizardry_64: 3707363114444386739
+      Wizardry_65: 8516695671057229094
+      Wizardry_66: -88784629957941958
+      Wizardry_67: -5642991690177024319
+      Wizardry_68: -1205155675650489482
+      Wizardry_69: 6061939795013798518
+      Wizardry_7: 1481068745427722943
+      Wizardry_70: 7935831564570572301
+      Wizardry_71: 2694959882708929571
+      Wizardry_72: -803348125126678773
+      Wizardry_73: 5469649658033788283
+      Wizardry_74: -8715271512491941276
+      Wizardry_75: 4046507318715266124
+      Wizardry_8: 6901611672040474709
+      Wizardry_9: -5166925905971325101
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
