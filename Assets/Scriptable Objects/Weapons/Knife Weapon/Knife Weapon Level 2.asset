@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Knife Weapon Level 2
   m_EditorClassIdentifier: Assembly-CSharp::WeaponScriptableObject
   prefab: {fileID: 4777727485175537307, guid: 7663b276e0cca244e9ab94e7d3e1e111, type: 3}
-  damage: 5
-  speed: 15
+  damage: 10
+  speed: 12
   cooldownDuration: 2
   pierce: 1
   level: 2
@@ -22,3 +22,4 @@ MonoBehaviour:
   name: Fiery Knife Level 2
   description: Speed +5
   icon: {fileID: -9136433591995021821, guid: d1a0844d6187dbd459b0e70d4f9123f6, type: 3}
+  evolvedUpgradeToRemove: 0
