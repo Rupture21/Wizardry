@@ -51,9 +51,12 @@ public class EnemySpawner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (currentWaveCount < waves.Count && waves[currentWaveCount].spawnCount == 0 && !isWaveActive)
+        if (currentWaveCount < waves.Count - 1 && !isWaveActive)
         {
-            StartCoroutine(BeginNextWave());
+            if (waves[currentWaveCount].spawnCount >= waves[currentWaveCount].waveQuota && enemiesAlive == 0)
+            {
+                StartCoroutine(BeginNextWave());
+            }
         }
 
         spawnTimer += Time.deltaTime;
@@ -71,12 +74,9 @@ public class EnemySpawner : MonoBehaviour
 
         yield return new WaitForSeconds(waveInterval);
 
-        if (currentWaveCount < waves.Count -1)
-        {
-            isWaveActive = false;
-            currentWaveCount++;
-            CalculateWaveQuota();
-        }
+        isWaveActive = false;
+        currentWaveCount++;
+        CalculateWaveQuota();
     }
 
     void CalculateWaveQuota()
@@ -98,7 +98,8 @@ public class EnemySpawner : MonoBehaviour
             {
                 if (enemyGroup.spawnCount < enemyGroup.enemyCount)
                 {
-                    Instantiate(enemyGroup.enemyPrefabs, player.position + relativeSpawnPoints[UnityEngine.Random.Range(0, relativeSpawnPoints.Count)].position, Quaternion.identity);
+                    Transform spawnPoint = relativeSpawnPoints[UnityEngine.Random.Range(0, relativeSpawnPoints.Count)];
+                    Instantiate(enemyGroup.enemyPrefabs, player.position + spawnPoint.localPosition, Quaternion.identity);
 
                     enemyGroup.spawnCount++;
                     waves[currentWaveCount].spawnCount++;

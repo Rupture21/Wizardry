@@ -140,6 +140,8 @@ public class InventoryManager : MonoBehaviour
                 return;
             }
 
+            upgradeOption.upgradeButton.onClick.RemoveAllListeners();
+
             int upgradeType;
 
             if (availableWeaponUpgrades.Count == 0)
@@ -165,7 +167,7 @@ public class InventoryManager : MonoBehaviour
                 {
                     EnableUpgradeUI(upgradeOption);
 
-                    bool newWeapon = false;
+                    bool newWeapon = true;
                     for (int i = 0; i < weaponSlots.Count; i++)
                     {
                         if (weaponSlots[i] != null && weaponSlots[i].weaponData == chosenWeaponUpgrade.weaponData)
@@ -179,7 +181,8 @@ public class InventoryManager : MonoBehaviour
                                     break;
                                 }
 
-                                upgradeOption.upgradeButton.onClick.AddListener(() => LevelUpWeapon(i, chosenWeaponUpgrade.weaponUpgradeIndex));
+                                int cachedIndex = i;
+                                upgradeOption.upgradeButton.onClick.AddListener(() => LevelUpWeapon(cachedIndex, chosenWeaponUpgrade.weaponUpgradeIndex));
                                 upgradeOption.upgradeDescriptionDisplay.text = chosenWeaponUpgrade.weaponData.NextLevelPrefab.GetComponent<WeaponController>().weaponData.Description;
                                 upgradeOption.upgradeNameDisplay.text = chosenWeaponUpgrade.weaponData.NextLevelPrefab.GetComponent<WeaponController>().weaponData.Name; 
                             }
@@ -210,7 +213,7 @@ public class InventoryManager : MonoBehaviour
                 {
                     EnableUpgradeUI(upgradeOption);
 
-                    bool newPassiveItem = false;
+                    bool newPassiveItem = true;
                     for (int i = 0; i < passiveItemSlots.Count; i++)
                     {
                         if (passiveItemSlots[i] != null && passiveItemSlots[i].passiveItemData == chosenPassiveItemUpgrade.passiveItemData)
@@ -225,7 +228,8 @@ public class InventoryManager : MonoBehaviour
                                     break;
                                 }
 
-                                upgradeOption.upgradeButton.onClick.AddListener(() => LevelUpPassiveItem(i, chosenPassiveItemUpgrade.passiveItemUpgradeIndex));
+                                int cachedIndex = i;
+                                upgradeOption.upgradeButton.onClick.AddListener(() => LevelUpPassiveItem(cachedIndex, chosenPassiveItemUpgrade.passiveItemUpgradeIndex));
                                 upgradeOption.upgradeDescriptionDisplay.text = chosenPassiveItemUpgrade.passiveItemData.NextLevelPrefab.GetComponent<PassiveItem>().passiveItemData.Description;
                                 upgradeOption.upgradeNameDisplay.text = chosenPassiveItemUpgrade.passiveItemData.NextLevelPrefab.GetComponent<PassiveItem>().passiveItemData.Name; 
                             }
