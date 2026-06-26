@@ -134,7 +134,8 @@ public class PlayerStats : MonoBehaviour
     bool isInvincible;
 
     public List<LevelRange> levelRanges;
-
+    
+    PlayerCollector collector;
     InventoryManager inventory;
     public int weaponIndex;
     public int passiveItemIndex;
@@ -147,9 +148,11 @@ public class PlayerStats : MonoBehaviour
     void Awake()
     {
         characterData = CharacterSelector.GetData();
-        CharacterSelector.instance.DestroySingleton();
+        if (CharacterSelector.instance)
+            CharacterSelector.instance.DestroySingleton();
 
         inventory = GetComponent<InventoryManager>();
+        collector = GetComponentInChildren<PlayerCollector>();
 
         CurrentHealth = characterData.MaxHealth;
         CurrentRecovery = characterData.Recovery;
@@ -157,6 +160,8 @@ public class PlayerStats : MonoBehaviour
         CurrentMight = characterData.Might;
         CurrentProjectileSpeed = characterData.ProjectileSpeed;
         CurrentMagnet = characterData.Magnet;
+
+        collector.SetRadius(CurrentMagnet);
 
         SpawnWeapon(characterData.StartingWeapon);
     }
@@ -284,12 +289,12 @@ public class PlayerStats : MonoBehaviour
         {
             CurrentHealth += CurrentRecovery * Time.deltaTime;
 
-            UpdateHealthBar();
-
             if (CurrentHealth > characterData.MaxHealth)
             {
                 CurrentHealth = characterData.MaxHealth;
             }
+
+            UpdateHealthBar();
         }
         
     }

@@ -1,30 +1,29 @@
 using UnityEngine;
+using UnityEngine.Playables;
 
+[RequireComponent(typeof(CircleCollider2D))]
 public class PlayerCollector : MonoBehaviour
 {
     PlayerStats player;
-    CircleCollider2D playerCollector;
+    CircleCollider2D dectector;
     public float pullSpeed;
 
-    void Start()
+    private void Start()
     {
-        player = FindAnyObjectByType<PlayerStats>();
-        playerCollector = GetComponent<CircleCollider2D>();
+        player = GetComponentInParent<PlayerStats>();
     }
-    void Update()
+
+    public void SetRadius(float r)
     {
-        playerCollector.radius = player.CurrentMagnet;
+        if (!dectector) dectector = GetComponent<CircleCollider2D>();
+        dectector.radius = r;
     }
 
     void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.gameObject.TryGetComponent(out ICollectible collectible))
+        if (col.TryGetComponent(out Pickup p)) //Check if the GameObject is a Pickup
         {
-            Rigidbody2D rb = col.gameObject.GetComponent<Rigidbody2D>();
-            Vector2 forceDirection = (transform.position - col.transform.position).normalized;
-            rb.AddForce(forceDirection * pullSpeed);
-
-            collectible.Collect();
+            p.Collect(player, pullSpeed);
         }
     }
 }

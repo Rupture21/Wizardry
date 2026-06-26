@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7146928867472121772}
   - component: {fileID: 6221615520650900238}
   - component: {fileID: 2999828554698565322}
-  - component: {fileID: -7458009485452150898}
+  - component: {fileID: 3914741182493000764}
   m_Layer: 0
   m_Name: Treasure Star
   m_TagString: Untagged
@@ -142,7 +142,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34686e67c165db94cb144a1ab5fab82c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TreasureStar
---- !u!114 &-7458009485452150898
+--- !u!114 &3914741182493000764
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -151,9 +151,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 5825514717976407663}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 61aa056bc30955c45892aeef2eab73dc, type: 3}
+  m_Script: {fileID: 11500000, guid: 8e6401928af46654d96f5d60e43d4099, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BobbingAnimation
-  frequency: 0
-  magnitude: 0
-  direction: {x: 0, y: 0, z: 0}
+  m_EditorClassIdentifier: Assembly-CSharp::Pickup
+  lifespan: 0.5
+  bobbingAnimation:
+    frequency: 2
+    direction: {x: 0, y: 0.3}
+  experience: 0
+  health: 0
