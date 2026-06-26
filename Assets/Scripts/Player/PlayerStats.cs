@@ -233,12 +233,14 @@ public class PlayerStats : MonoBehaviour
 
     void UpdateExpBar()
     {
-        expBar.fillAmount = (float)experience / experienceCap;
+        if (expBar != null)
+            expBar.fillAmount = (float)experience / experienceCap;
     }
 
     void UpdateLevelText()
     {
-        levelText.text = "LV. " + level.ToString();
+        if (levelText != null)
+            levelText.text = "LV. " + level.ToString();
     }
 
     public void TakeDamage(float dmg)
@@ -263,7 +265,8 @@ public class PlayerStats : MonoBehaviour
 
     void UpdateHealthBar()
     {
-        healthBar.fillAmount = currentHealth / characterData.MaxHealth;
+        if (healthBar != null)
+            healthBar.fillAmount = currentHealth / characterData.MaxHealth;
     }
 
     public void Kill()

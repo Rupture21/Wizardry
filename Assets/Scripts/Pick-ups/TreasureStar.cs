@@ -1,21 +1,32 @@
 using UnityEngine;
 
-public class TreasureStar : MonoBehaviour
+public class TreasureStar : Pickup
 {
     InventoryManager inventory;
 
-    void Start()
+    protected override void Start()
     {
+        base.Start();
+
         inventory = FindAnyObjectByType<InventoryManager>();
     }
 
-    void OnTriggerEnter2D(Collider2D col)
+    // void OnTriggerEnter2D(Collider2D col)
+    // {
+    //     if (col.gameObject.CompareTag("Player"))
+    //     {
+    //         OpenTreasureStar();
+    //         Destroy(gameObject);
+    //     }
+    // }
+
+    protected override void OnDestroy()
     {
-        if (col.gameObject.CompareTag("Player"))
-        {
-            OpenTreasureStar();
-            Destroy(gameObject);
-        }
+        if (!target) return; 
+
+        OpenTreasureStar();
+
+        base.OnDestroy(); 
     }
 
     public void OpenTreasureStar()

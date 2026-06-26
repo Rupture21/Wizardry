@@ -16,4 +16,14 @@ public class EnemyScriptableObject : ScriptableObject
     [SerializeField]
     float damage;
     public float Damage { get => damage; private set => damage = value; }
+
+    [Header("Ranged Enemy Settings")]
+    [SerializeField] float attackRange;
+    public float AttackRange { get => attackRange; private set => attackRange = value; }
+
+    [SerializeField] float fireRate; // Time between shots in seconds
+    public float FireRate { get => fireRate; private set => fireRate = value; }
+
+    [SerializeField] GameObject projectilePrefab;
+    public GameObject ProjectilePrefab { get => projectilePrefab; private set => projectilePrefab = value; }
 }

@@ -270,11 +270,15 @@ public class InventoryManager : MonoBehaviour
 
     void DisableUpgradeUI(UpgradeUI ui)
     {
+        if (ui == null || ui.upgradeNameDisplay == null)
+            return;
         ui.upgradeNameDisplay.transform.parent.gameObject.SetActive(false);
     }
 
     void EnableUpgradeUI(UpgradeUI ui)
     {
+        if (ui == null || ui.upgradeNameDisplay == null)
+            return;
         ui.upgradeNameDisplay.transform.parent.gameObject.SetActive(true);
     }
 

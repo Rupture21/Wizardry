@@ -206,6 +206,7 @@ public class GameManager : MonoBehaviour
     public void GameOver()
     {
         timeSurvivedDisplay.text = stopwatchDisplay.text;
+
         ChangeState(GameState.GameOver);
     }
 
