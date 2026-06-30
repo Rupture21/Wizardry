@@ -59,12 +59,15 @@ public class EnemySpawner : MonoBehaviour
             }
         }
 
-        spawnTimer += Time.deltaTime;
-
-        if (spawnTimer >= waves[currentWaveCount].spawnInterval)
+        if (!isWaveActive)
         {
-            spawnTimer = 0;
-            SpawnEnemies();
+            spawnTimer += Time.deltaTime;
+
+            if (spawnTimer >= waves[currentWaveCount].spawnInterval)
+            {
+                spawnTimer = 0;
+                SpawnEnemies();
+            }
         }
     }
 
@@ -77,6 +80,8 @@ public class EnemySpawner : MonoBehaviour
         isWaveActive = false;
         currentWaveCount++;
         CalculateWaveQuota();
+
+        spawnTimer = 0;
     }
 
     void CalculateWaveQuota()

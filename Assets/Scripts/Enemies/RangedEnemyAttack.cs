@@ -12,7 +12,6 @@ public class RangedEnemyAttack : MonoBehaviour
         stats = GetComponent<EnemyStats>();
         movement = GetComponent<EnemyMovement>();
         
-        // Find the player safely
         PlayerStats playerStats = FindAnyObjectByType<PlayerStats>();
         if (playerStats != null) player = playerStats.transform;
     }

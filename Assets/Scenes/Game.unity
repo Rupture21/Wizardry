@@ -1110,9 +1110,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 2144044179}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 750, y: -516.6666}
   m_SizeDelta: {x: 1500, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &238371317
@@ -2373,9 +2373,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 2144044179}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 750, y: -166.66666}
   m_SizeDelta: {x: 1500, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &381980045
@@ -4759,9 +4759,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 2144044179}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 750, y: -50}
   m_SizeDelta: {x: 1500, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &844790907
@@ -4898,9 +4898,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 2144044179}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 750, y: -283.3333}
   m_SizeDelta: {x: 1500, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &886309988
@@ -5882,7 +5882,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1029355939
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6062,9 +6062,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 2144044179}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 750, y: -633.3333}
   m_SizeDelta: {x: 1500, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1088183778
@@ -6193,9 +6193,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 2144044179}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 750, y: -400}
   m_SizeDelta: {x: 1500, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1103871285
@@ -7083,15 +7083,15 @@ MonoBehaviour:
       enemyCount: 5
       spawnCount: 0
       enemyPrefabs: {fileID: 4088318280716611292, guid: 969bb34d5abd0e24b9f12df4390d421a, type: 3}
-    - enemyName: Wizard
-      enemyCount: 1
-      spawnCount: 0
-      enemyPrefabs: {fileID: 1434724813540412739, guid: 64f80dce7de06964d822d3014d132889, type: 3}
     waveQuota: 0
     spawnInterval: 1
     spawnCount: 0
   - waveName: Wave 2
     enemyGroups:
+    - enemyName: Bat
+      enemyCount: 3
+      spawnCount: 0
+      enemyPrefabs: {fileID: 4088318280716611292, guid: 969bb34d5abd0e24b9f12df4390d421a, type: 3}
     - enemyName: Elite Bat
       enemyCount: 2
       spawnCount: 0
@@ -7109,8 +7109,12 @@ MonoBehaviour:
       enemyCount: 2
       spawnCount: 0
       enemyPrefabs: {fileID: 4088318280716611292, guid: e643f8dd465f2e44bbcc40ff9301209b, type: 3}
+    - enemyName: Wizard
+      enemyCount: 2
+      spawnCount: 0
+      enemyPrefabs: {fileID: 1434724813540412739, guid: 64f80dce7de06964d822d3014d132889, type: 3}
     waveQuota: 0
-    spawnInterval: 1
+    spawnInterval: 2
     spawnCount: 0
   - waveName: Wave 4
     enemyGroups:
@@ -7122,6 +7126,10 @@ MonoBehaviour:
       enemyCount: 5
       spawnCount: 0
       enemyPrefabs: {fileID: 4088318280716611292, guid: e643f8dd465f2e44bbcc40ff9301209b, type: 3}
+    - enemyName: Wizard
+      enemyCount: 3
+      spawnCount: 0
+      enemyPrefabs: {fileID: 1434724813540412739, guid: 64f80dce7de06964d822d3014d132889, type: 3}
     waveQuota: 0
     spawnInterval: 1
     spawnCount: 0
@@ -10849,6 +10857,10 @@ PrefabInstance:
     - target: {fileID: 5825514717976407663, guid: 55a0eef3ec5cf174689996c44af13811, type: 3}
       propertyPath: m_Name
       value: Treasure Star
+      objectReference: {fileID: 0}
+    - target: {fileID: 5825514717976407663, guid: 55a0eef3ec5cf174689996c44af13811, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
