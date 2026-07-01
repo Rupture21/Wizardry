@@ -14,6 +14,11 @@ public class EnemyStats : MonoBehaviour
     public float currentDamage;
 
     public float despawnDistance = 20f;
+
+    public AudioClip deathSound;
+    [Range(0, 100)]
+    public int deathSoundVolume;
+
     Transform player;
     EnemySpawner spawner;
 
@@ -90,6 +95,8 @@ public class EnemyStats : MonoBehaviour
     {
         isDead = true;
         GetComponent<Collider2D>().enabled = false;
+
+        AudioManager.Instance.PlaySound3D(deathSound, transform.position, deathSoundVolume / 100f);
 
         StartCoroutine(KillFade());
     }

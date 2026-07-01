@@ -115,6 +115,9 @@ public class PlayerStats : MonoBehaviour
     public ParticleSystem damageEffect;
 
     [Header("Experience/Level")]
+    public AudioClip levelUpSound;
+    [Range(0, 100)]
+    public int levelUpSoundVolume;
     public int experience = 0;
     public int level = 1;
     public int experienceCap;
@@ -224,6 +227,8 @@ public class PlayerStats : MonoBehaviour
                 }
             }
             experienceCap += experienceCapIncrease;
+
+            AudioManager.Instance.PlaySound2D(levelUpSound, levelUpSoundVolume / 100f);
 
             UpdateLevelText();
 

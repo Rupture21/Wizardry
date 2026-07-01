@@ -42,7 +42,10 @@ public class InventoryManager : MonoBehaviour
     public List<WeaponUpgrade> weaponUpgradeOptions = new List<WeaponUpgrade>();
     public List<PassiveItemUpgrade> passiveItemUpgradeOptions = new List<PassiveItemUpgrade>();
     public List<UpgradeUI> upgradeUIOptions = new List<UpgradeUI>();
-
+    
+    public AudioClip evolveSound;
+    [Range(0, 100)]
+    public int evolveSoundVolume;
     public List<WeaponEvolutionBlueprint> weapoponEvolutions = new List<WeaponEvolutionBlueprint>();
 
     PlayerStats player;
@@ -344,6 +347,8 @@ public class InventoryManager : MonoBehaviour
                     weaponUISlots[weaponSlotIndex].sprite = evolvedWeaponController.weaponData.Icon;
 
                     weaponUpgradeOptions.RemoveAt(evolvedWeaponController.weaponData.EvolvedUpgradeToRemove);
+
+                    AudioManager.Instance.PlaySound2D(evolveSound, evolveSoundVolume / 100f);
 
                     Debug.LogWarning("Weapon evolved!");
 

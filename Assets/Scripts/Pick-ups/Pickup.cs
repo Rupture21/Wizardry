@@ -8,6 +8,10 @@ public class Pickup : MonoBehaviour
     Vector2 initialPosition;
     float initialOffset;
 
+    public AudioClip collectSound;
+    [Range(0, 100)]
+    public int collectSoundVolume;
+
     [System.Serializable]
     public struct BobbingAnimation
     {
@@ -45,6 +49,7 @@ public class Pickup : MonoBehaviour
             }
             else
             {
+                AudioManager.Instance.PlaySound3D(collectSound, transform.position, collectSoundVolume / 100f);
                 Destroy(gameObject);
             }
         }

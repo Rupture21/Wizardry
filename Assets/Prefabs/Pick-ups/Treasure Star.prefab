@@ -142,6 +142,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TreasureStar
   lifespan: 0.5
+  collectSound: {fileID: 8300000, guid: 566718b90fecb5148af39ee7367dffd9, type: 3}
+  collectSoundVolume: 80
   bobbingAnimation:
     frequency: 2
     direction: {x: 0, y: 0.3}

@@ -171,6 +171,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Pickup
   lifespan: 0.5
+  collectSound: {fileID: 8300000, guid: e40ede2ee76c96641ad5d2e9a6b89c3f, type: 3}
+  collectSoundVolume: 80
   bobbingAnimation:
     frequency: 2
     direction: {x: 0, y: 0.3}

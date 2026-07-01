@@ -2219,6 +2219,7 @@ GameObject:
   - component: {fileID: 376578755}
   - component: {fileID: 376578754}
   - component: {fileID: 376578753}
+  - component: {fileID: 376578756}
   m_Layer: 5
   m_Name: Resume
   m_TagString: Untagged
@@ -2303,6 +2304,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 376578756}
+        m_TargetAssemblyTypeName: ButtonAudio, Assembly-CSharp
+        m_MethodName: OnButtonClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &376578754
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2341,6 +2354,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 376578751}
   m_CullTransparentMesh: 1
+--- !u!114 &376578756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 376578751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d640527ef95335444bbbaea0f43d419d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonAudio
+  clickSound: {fileID: 8300000, guid: 87dc17226432c5d448b2943ce377109f, type: 3}
 --- !u!1 &381980043
 GameObject:
   m_ObjectHideFlags: 0
@@ -4245,6 +4271,7 @@ GameObject:
   - component: {fileID: 822879133}
   - component: {fileID: 822879132}
   - component: {fileID: 822879131}
+  - component: {fileID: 822879134}
   m_Layer: 5
   m_Name: Confirm
   m_TagString: Untagged
@@ -4329,6 +4356,18 @@ MonoBehaviour:
           m_StringArgument: Title Screen
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 822879134}
+        m_TargetAssemblyTypeName: ButtonAudio, Assembly-CSharp
+        m_MethodName: OnButtonClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &822879132
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4367,6 +4406,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 822879129}
   m_CullTransparentMesh: 1
+--- !u!114 &822879134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 822879129}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d640527ef95335444bbbaea0f43d419d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonAudio
+  clickSound: {fileID: 8300000, guid: 87dc17226432c5d448b2943ce377109f, type: 3}
 --- !u!1 &823961127
 GameObject:
   m_ObjectHideFlags: 0
@@ -4636,6 +4688,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerStats
   damageEffect: {fileID: 5223995170916198029, guid: 3d9083bd839076d4bb355de5d528e71f, type: 3}
+  levelUpSound: {fileID: 8300000, guid: 3465783d11c000b46b421940696dc487, type: 3}
+  levelUpSoundVolume: 100
   experience: 0
   level: 1
   experienceCap: 0
@@ -4647,6 +4701,9 @@ MonoBehaviour:
   - startLevel: 4
     endLevel: 5
     experienceCapIncrease: 200
+  - startLevel: 6
+    endLevel: 10
+    experienceCapIncrease: 300
   weaponIndex: 0
   passiveItemIndex: 0
   healthBar: {fileID: 356518975}
@@ -4725,6 +4782,8 @@ MonoBehaviour:
     upgradeDescriptionDisplay: {fileID: 536008026}
     upgradeIcon: {fileID: 233859615}
     upgradeButton: {fileID: 1821313335}
+  evolveSound: {fileID: 8300000, guid: afda95d872be1b540a71f80afa39f7cf, type: 3}
+  evolveSoundVolume: 100
   weapoponEvolutions:
   - {fileID: 11400000, guid: 105876da6b8767e48a5200e9b7075952, type: 2}
 --- !u!1 &844790905
@@ -7183,9 +7242,9 @@ MonoBehaviour:
     spawnCount: 0
   currentWaveCount: 0
   enemiesAlive: 0
-  maxEnemieAllowed: 15
+  maxEnemieAllowed: 20
   maxEnemiesReached: 0
-  waveInterval: 3
+  waveInterval: 2
   relativeSpawnPoints:
   - {fileID: 618725106}
   - {fileID: 1346432698}
@@ -7624,6 +7683,7 @@ GameObject:
   - component: {fileID: 1408919702}
   - component: {fileID: 1408919701}
   - component: {fileID: 1408919700}
+  - component: {fileID: 1408919703}
   m_Layer: 5
   m_Name: Quit
   m_TagString: Untagged
@@ -7708,6 +7768,18 @@ MonoBehaviour:
           m_StringArgument: Title Screen
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1408919703}
+        m_TargetAssemblyTypeName: ButtonAudio, Assembly-CSharp
+        m_MethodName: OnButtonClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1408919701
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7746,6 +7818,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1408919698}
   m_CullTransparentMesh: 1
+--- !u!114 &1408919703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1408919698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d640527ef95335444bbbaea0f43d419d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonAudio
+  clickSound: {fileID: 8300000, guid: 87dc17226432c5d448b2943ce377109f, type: 3}
 --- !u!1 &1419710174
 GameObject:
   m_ObjectHideFlags: 0
