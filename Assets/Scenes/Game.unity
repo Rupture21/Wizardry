@@ -7139,11 +7139,15 @@ MonoBehaviour:
   - waveName: Wave 1
     enemyGroups:
     - enemyName: Bat
-      enemyCount: 5
+      enemyCount: 3
       spawnCount: 0
       enemyPrefabs: {fileID: 4088318280716611292, guid: 969bb34d5abd0e24b9f12df4390d421a, type: 3}
+    - enemyName: Mimic
+      enemyCount: 2
+      spawnCount: 0
+      enemyPrefabs: {fileID: 2922784809176979813, guid: dfd59559c2815c64f8e4e0b2945884a9, type: 3}
     waveQuota: 0
-    spawnInterval: 1
+    spawnInterval: 2
     spawnCount: 0
   - waveName: Wave 2
     enemyGroups:
@@ -7155,8 +7159,12 @@ MonoBehaviour:
       enemyCount: 2
       spawnCount: 0
       enemyPrefabs: {fileID: 4088318280716611292, guid: e643f8dd465f2e44bbcc40ff9301209b, type: 3}
+    - enemyName: Mimic
+      enemyCount: 2
+      spawnCount: 0
+      enemyPrefabs: {fileID: 2922784809176979813, guid: dfd59559c2815c64f8e4e0b2945884a9, type: 3}
     waveQuota: 0
-    spawnInterval: 3
+    spawnInterval: 2
     spawnCount: 0
   - waveName: Wave 3
     enemyGroups:
@@ -7172,6 +7180,10 @@ MonoBehaviour:
       enemyCount: 2
       spawnCount: 0
       enemyPrefabs: {fileID: 1434724813540412739, guid: 64f80dce7de06964d822d3014d132889, type: 3}
+    - enemyName: Mimic
+      enemyCount: 2
+      spawnCount: 0
+      enemyPrefabs: {fileID: 2922784809176979813, guid: dfd59559c2815c64f8e4e0b2945884a9, type: 3}
     waveQuota: 0
     spawnInterval: 2
     spawnCount: 0
@@ -7244,7 +7256,7 @@ MonoBehaviour:
   enemiesAlive: 0
   maxEnemieAllowed: 20
   maxEnemiesReached: 0
-  waveInterval: 2
+  waveInterval: 1
   relativeSpawnPoints:
   - {fileID: 618725106}
   - {fileID: 1346432698}

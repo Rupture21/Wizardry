@@ -7,16 +7,25 @@ public class CharacterSelector : MonoBehaviour
 
     void Awake()
     {
-        if (instance == null)
+        // if (instance == null)
+        // {
+        //     instance = this;
+        //     DontDestroyOnLoad(gameObject);
+        // }
+        // else
+        // {
+        //     Debug.LogWarning("EXTRA" + this + "DELETED");
+        //     Destroy(gameObject);
+        // }
+
+        if (instance != null && instance != this)
         {
-            instance = this;
-            DontDestroyOnLoad(gameObject);
+            Debug.Log("EXTRA " + this + " DELETED");
+            Destroy(instance.gameObject);
         }
-        else
-        {
-            Debug.LogWarning("EXTRA" + this + "DELETED");
-            Destroy(gameObject);
-        }
+
+        instance = this;
+        DontDestroyOnLoad(gameObject);
     }
     
     public static CharacterScriptableObject GetData()
@@ -26,7 +35,7 @@ public class CharacterSelector : MonoBehaviour
 
     public void SelectCharacter(CharacterScriptableObject character)
     {
-        characterData = character;
+            characterData = character;
     }
 
     public void DestroySingleton()
